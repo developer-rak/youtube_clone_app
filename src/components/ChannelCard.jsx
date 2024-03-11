@@ -15,7 +15,7 @@ const ChannelCard = ({ channelDetail }) => {
                <CheckCircle sx={{ fontSize: 14, color: 'gray', ml: '5px' }} />
             </Typography>
             <Typography>
-               {channelDetail?.statistics?.subscriberCount && (subscriberCount).toLocalString()} Subscribers
+               {/* {channelDetail?.statistics?.subscriberCount && (subscriberCount).toLocalString()} Subscribers */}
             </Typography>
          </CardContent>
       </Link>
